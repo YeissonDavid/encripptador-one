@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Encriptador Oracle</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="./images/Frame 6.png" alt="logo-de-alura" >
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingresa texto para encriptar o desencriptar"></textarea>
+            <div> 
+                <h6 class="informacion"> Sólo ingresa con letras minúsculas. No debes ser utilizados letras
+                    con acentos ni caracteres especiales. Gracias</h6>
+            </div>            
+        </section>
+
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>            
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+           </div>
+        <section>
+            <TextArea class="mensaje" cols="20" rows="10"> </TextArea>
+            <div>
+                <button class="copiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <script src="./script.js"></script>
+<footer> Creado el 12 Ag 2024 por Yeissondavid.com" </footer>
+
+</body>
+</html>
